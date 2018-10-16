@@ -31,6 +31,7 @@ public class BuildingMangerScript : MonoBehaviour {
 	void Start () {
         red = new Color(255, 0, 0);
         green = new Color(0, 255, 0);
+        black = new Color(0, 0, 0);
         value = Random.Range(minValue, maxValue);
         neg.onClick.AddListener(delegate { ChangeWorkers(-1); });
         pos.onClick.AddListener(delegate { ChangeWorkers(1); });
